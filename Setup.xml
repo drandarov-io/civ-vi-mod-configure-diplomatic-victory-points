@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<GameData>
+    <Parameters>
+        <Row ConfigurationGroup="Game" ConfigurationId="REQ_DIPLOMATIC_VICTORY_POINTS" DefaultValue="CALCULATED" Description="LOC_DVP_DESCRIPTION" Domain="DVPDom" GroupId="AdvancedOptions" Hash="0" Name="LOC_DVP_NAME" ParameterId="DVP" SortIndex="634"/>
+        <Row ConfigurationGroup="Game" ConfigurationId="CDVP_HEADER" DefaultValue="1" Description="LOC_CDVP_HEADER_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_CDVP_HEADER_NAME" ParameterId="CDVPHeader" ReadOnly="1" SortIndex="633"/>
+        <Row ConfigurationGroup="Game" ConfigurationId="CDVP_FOOTER_1" DefaultValue="1" Description="LOC_CDVP_FOOTER_1_DESCRIPTION" Domain="bool" GroupId="AdvancedOptions" Hash="0" Name="LOC_CDVP_FOOTER_1_NAME" ParameterId="CDVPFooter1" ReadOnly="1" SortIndex="635"/>
+    </Parameters>
+    <DomainValues>
+        <!--Localised Name-->
+        <Row Description="LOC_DVP_20_DESCRIPTION" Domain="DVPDom" Name="LOC_DVP_20_NAME" SortIndex="20" Value="20"/>
+        <Row Description="LOC_DVP_21_DESCRIPTION" Domain="DVPDom" Name="LOC_DVP_21_NAME" SortIndex="21" Value="21"/>
+        <Row Description="LOC_DVP_22_DESCRIPTION" Domain="DVPDom" Name="LOC_DVP_22_NAME" SortIndex="22" Value="22"/>
+        <Row Description="LOC_DVP_23_DESCRIPTION" Domain="DVPDom" Name="LOC_DVP_23_NAME" SortIndex="23" Value="23"/>
+        <Row Description="LOC_DVP_24_DESCRIPTION" Domain="DVPDom" Name="LOC_DVP_24_NAME" SortIndex="24" Value="24"/>
+        <Row Description="LOC_DVP_25_DESCRIPTION" Domain="DVPDom" Name="LOC_DVP_25_NAME" SortIndex="25" Value="25"/>
+        <Row Description="LOC_DVP_30_DESCRIPTION" Domain="DVPDom" Name="LOC_DVP_30_NAME" SortIndex="30" Value="30"/>
+        <Row Description="LOC_DVP_40_DESCRIPTION" Domain="DVPDom" Name="LOC_DVP_40_NAME" SortIndex="40" Value="40"/>
+        <Row Description="LOC_DVP_50_DESCRIPTION" Domain="DVPDom" Name="LOC_DVP_50_NAME" SortIndex="50" Value="50"/>
+    </DomainValues>
+</GameData>

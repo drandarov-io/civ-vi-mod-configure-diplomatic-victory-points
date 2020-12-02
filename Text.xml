@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<GameData>
+    <LocalizedText>
+        <Replace Language="en_US" Tag="LOC_DVP_NAME">
+            <Text>Required Diplomatic VP</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_20_NAME">
+            <Text>Require 20 [ICON_Favor] Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_20_DESCRIPTION">
+            <Text>The amount of [ICON_Favor] Diplomatic Victory Points needed to win a Diplomatic Victory is set to 20. (Default)</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_21_NAME">
+            <Text>Require 21 [ICON_Favor] Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_21_DESCRIPTION">
+            <Text>The amount of [ICON_Favor] Diplomatic Victory Points needed to win a Diplomatic Victory is set to 21.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_22_NAME">
+            <Text>Require 22 [ICON_Favor] Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_22_DESCRIPTION">
+            <Text>The amount of [ICON_Favor] Diplomatic Victory Points needed to win a Diplomatic Victory is set to 22.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_23_NAME">
+            <Text>Require 23 [ICON_Favor] Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_23_DESCRIPTION">
+            <Text>The amount of [ICON_Favor] Diplomatic Victory Points needed to win a Diplomatic Victory is set to 23.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_24_NAME">
+            <Text>Require 24 [ICON_Favor] Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_24_DESCRIPTION">
+            <Text>The amount of [ICON_Favor] Diplomatic Victory Points needed to win a Diplomatic Victory is set to 24.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_25_NAME">
+            <Text>Require 25 [ICON_Favor] Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_25_DESCRIPTION">
+            <Text>The amount of [ICON_Favor] Diplomatic Victory Points needed to win a Diplomatic Victory is set to 25.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_30_NAME">
+            <Text>Require 30 [ICON_Favor] Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_30_DESCRIPTION">
+            <Text>The amount of [ICON_Favor] Diplomatic Victory Points needed to win a Diplomatic Victory is set to 30.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_40_NAME">
+            <Text>Require 40 [ICON_Favor] Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_40_DESCRIPTION">
+            <Text>The amount of [ICON_Favor] Diplomatic Victory Points needed to win a Diplomatic Victory is set to 40.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_50_NAME">
+            <Text>Require 50 [ICON_Favor] Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_50_DESCRIPTION">
+            <Text>The amount of [ICON_Favor] Diplomatic Victory Points needed to win a Diplomatic Victory is set to 50.</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_DVP_DESCRIPTION">
+            <Text>Required Diplomatic Victory Points</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CDVP_HEADER_NAME">
+            <Text>[COLOR_Science]Configure Diplomatic Victory Points Settings[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CDVP_HEADER_DESCRIPTION">
+            <Text>Configure Diplomatic Victory Points Settings by DahakaMVl</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CDVP_FOOTER_1_NAME">
+            <Text>[COLOR_Science]Configure Diplomatic Victory Points Settings End[ENDCOLOR]</Text>
+        </Replace>
+        <Replace Language="en_US" Tag="LOC_CDVP_FOOTER_1_DESCRIPTION">
+            <Text>Fake Option for padding.</Text>
+        </Replace>
+    </LocalizedText>
+</GameData>

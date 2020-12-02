@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Mod id="ed5596fd-51fa-4edd-bb2f-333215519b9e" version="5">
+    <Properties>
+        <Name>Configure required Diplomatic Victory Points</Name>
+        <Description>Creates an option when creating a game to change the required Diplomatic Victory Points (Scaled to Standard) under Advanced Options.</Description>
+        <Created>1606919829</Created>
+        <Teaser>Configure required Diplomatic Victory Points.</Teaser>
+        <Author>DahakaMVl</Author>
+        <CompatibleVersions>2.0</CompatibleVersions>
+    </Properties>
+    <ActionCriteria>
+        <Criteria id="DVP20_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>REQ_DIPLOMATIC_VICTORY_POINTS</ConfigurationId>
+                <Group>Game</Group>
+                <Value>20</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="DVP21_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>REQ_DIPLOMATIC_VICTORY_POINTS</ConfigurationId>
+                <Group>Game</Group>
+                <Value>21</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="DVP22_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>REQ_DIPLOMATIC_VICTORY_POINTS</ConfigurationId>
+                <Group>Game</Group>
+                <Value>22</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="DVP23_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>REQ_DIPLOMATIC_VICTORY_POINTS</ConfigurationId>
+                <Group>Game</Group>
+                <Value>23</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="DVP24_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>REQ_DIPLOMATIC_VICTORY_POINTS</ConfigurationId>
+                <Group>Game</Group>
+                <Value>24</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="DVP25_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>REQ_DIPLOMATIC_VICTORY_POINTS</ConfigurationId>
+                <Group>Game</Group>
+                <Value>25</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="DVP30_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>REQ_DIPLOMATIC_VICTORY_POINTS</ConfigurationId>
+                <Group>Game</Group>
+                <Value>30</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="DVP40_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>REQ_DIPLOMATIC_VICTORY_POINTS</ConfigurationId>
+                <Group>Game</Group>
+                <Value>40</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+        <Criteria id="DVP50_ex2">
+            <RuleSetInUse>RULESET_EXPANSION_2</RuleSetInUse>
+            <ConfigurationValueMatches>
+                <ConfigurationId>REQ_DIPLOMATIC_VICTORY_POINTS</ConfigurationId>
+                <Group>Game</Group>
+                <Value>50</Value>
+            </ConfigurationValueMatches>
+        </Criteria>
+    </ActionCriteria>
+    <FrontEndActions>
+        <UpdateText id="DVPText">
+            <File>Text.xml</File>
+        </UpdateText>
+        <UpdateDatabase id="DVPSetup">
+            <File>Setup.xml</File>
+        </UpdateDatabase>
+    </FrontEndActions>
+    <InGameActions>
+        <UpdateDatabase id="DVP20_ex2">
+            <Properties>
+                <LoadOrder>20010</LoadOrder>
+            </Properties>
+            <Criteria>DVP20_ex2</Criteria>
+            <File>SQL/20.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="DVP21_ex2">
+            <Properties>
+                <LoadOrder>20010</LoadOrder>
+            </Properties>
+            <Criteria>DVP21_ex2</Criteria>
+            <File>SQL/21.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="DVP22_ex2">
+            <Properties>
+                <LoadOrder>20010</LoadOrder>
+            </Properties>
+            <Criteria>DVP22_ex2</Criteria>
+            <File>SQL/22.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="DVP23_ex2">
+            <Properties>
+                <LoadOrder>20010</LoadOrder>
+            </Properties>
+            <Criteria>DVP23_ex2</Criteria>
+            <File>SQL/23.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="DVP24_ex2">
+            <Properties>
+                <LoadOrder>20010</LoadOrder>
+            </Properties>
+            <Criteria>DVP24_ex2</Criteria>
+            <File>SQL/24.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="DVP25_ex2">
+            <Properties>
+                <LoadOrder>20010</LoadOrder>
+            </Properties>
+            <Criteria>DVP25_ex2</Criteria>
+            <File>SQL/25.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="DVP30_ex2">
+            <Properties>
+                <LoadOrder>20010</LoadOrder>
+            </Properties>
+            <Criteria>DVP30_ex2</Criteria>
+            <File>SQL/30.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="DVP40_ex2">
+            <Properties>
+                <LoadOrder>20010</LoadOrder>
+            </Properties>
+            <Criteria>DVP40_ex2</Criteria>
+            <File>SQL/40.sql</File>
+        </UpdateDatabase>
+        <UpdateDatabase id="DVP50_ex2">
+            <Properties>
+                <LoadOrder>20010</LoadOrder>
+            </Properties>
+            <Criteria>DVP50_ex2</Criteria>
+            <File>SQL/50.sql</File>
+        </UpdateDatabase>
+    </InGameActions>
+    <Files>
+        <File>Setup.xml</File>
+        <File>Text.xml</File>
+        <File>SQL/20.sql</File>
+        <File>SQL/21.sql</File>
+        <File>SQL/22.sql</File>
+        <File>SQL/23.sql</File>
+        <File>SQL/24.sql</File>
+        <File>SQL/25.sql</File>
+        <File>SQL/30.sql</File>
+        <File>SQL/40.sql</File>
+        <File>SQL/50.sql</File>
+    </Files>
+</Mod>
